@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS persons (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(128),
+    birth_date DATE
+);
